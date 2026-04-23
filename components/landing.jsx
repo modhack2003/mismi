@@ -1,4 +1,4 @@
-// src/components/Landing.jsx
+"use client";
 const Landing = ({ onNext }) => {
   return (
     <div className="flex flex-col items-center justify-center h-screen space-y-6 animate-fadeIn">

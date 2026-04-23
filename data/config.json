@@ -1,0 +1,100 @@
+{
+  "names": {
+    "partner": "Kaberi",
+    "user": "Biku"
+  },
+  "event": "Anniversary",
+  "landing": {
+    "title": "A Special Message For You",
+    "subtitle": "Take a moment to relive our journey...",
+    "buttonText": "Start our story"
+  },
+  "photoStory": [
+    {
+      "src": "https://res.cloudinary.com/dazfpucfh/image/upload/v1776922863/pukuli_app/itme6piz3s4grvmpfbpu.jpg",
+      "trackName": "Jawl Phoring (Original)",
+      "artist": "Silajit Majumder",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c1/ed/39/c1ed3993-9bde-32e5-2ded-2c91a0278a20/mzaf_16668058449173503121.plus.aac.p.m4a",
+      "crop": {
+        "start": 10,
+        "end": 30
+      },
+      "fallbackText": "তুই চিরদিন তোর দরজা খুলে থাকিস\nঅবাধ আনাগোনার হিসেব কেন রাখিস?\nসাক্ষাৎ আলাদিন, তোর প্রদীপ ভরা জ্বীনে\nকেন খুঁজতে যাস আমায় সাজানো magazine-এ?\n",
+      "lyricsSpeed": 0.5
+    },
+    {
+      "src": "https://res.cloudinary.com/dazfpucfh/image/upload/v1776922801/pukuli_app/qwxfzafmo8ccancalwep.jpg",
+      "trackName": "Haaye Re",
+      "artist": "Banjaare, Swati Shukla & MaxxTurnn",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c2/30/6c/c2306c8c-7cd3-7136-4732-ccfd82333ac6/mzaf_16311657849348141530.plus.aac.p.m4a",
+      "crop": {
+        "start": 0,
+        "end": 29
+      },
+      "fallbackText": "Haaye Re Mane Kaalje Ka Le Le Nai Tu\nHaaye Re Haaye Re Mane Apni Bana Le Nai Tu\nHaaye Re Haaye Re Meri Man Jya Diwali Chori\nHaaye Re Haaye Re Teri Banu Ghar Aali Chori\nMane Apna Bana Le Ya Fakeer Tu Bana De\nMane Apna Bana Le Ya Fakeer Tu Bana De\nRanjha Tohlta Phire Koi Une Heer Tai Mila De\nMane Apna Bana Le Ya Fakeer Tu Bana De",
+      "lyricsSpeed": 1.5
+    },
+    {
+      "src": "https://res.cloudinary.com/dazfpucfh/image/upload/v1776922815/pukuli_app/bsabvquqbb4glzucdnpy.jpg",
+      "trackName": "Bairan",
+      "artist": "Banjaare",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0c/d8/56/0cd85678-5b5b-4b2b-a2e6-86c9a73b5384/mzaf_89108539719013236.plus.aac.p.m4a",
+      "crop": {
+        "start": 0,
+        "end": 30
+      },
+      "fallbackText": "O manne sambh-sambh rakhe tere jhanjhara ke jode\nMeri gail ro-roye bhi chhori bawle se hore\nManne aaye jaave khyaal tere khaye jaave khyaal tere\nJeene koni deti haye bairi tanhaai manne\nGeeta mein gayi kade chhaati ke lagayi manne\nJid bhi gaya re teri yaad khadi paayi manne\nSaambh Saambh Rakhi Bahut Chhaati Ke Lagayi Manne.\nJit Bhi Gaya Re Teri Yaad Khadi Paayi Manne.",
+      "lyricsSpeed": 1.75
+    },
+    {
+      "src": "https://res.cloudinary.com/dazfpucfh/image/upload/v1776922834/pukuli_app/n8j78iwvs9f1pelke1k8.jpg",
+      "trackName": "Arz Kiya Hai  Coke Studio Bharat",
+      "artist": "Anuv Jain",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3c/a8/02/3ca802bf-93d9-c985-9438-b0a1948c42ab/mzaf_15207278489713257665.plus.aac.p.m4a",
+      "crop": {
+        "start": 0,
+        "end": 30
+      },
+      "fallbackText": "Ishq mein tere hain Faiz bane\nArz kiya hai\nHumne bhi likha kuchh tere baare mein hai\nAise tu lage ki gulaab hai\nAur aise tu lage ki gulaab hai\nBaghon mein dil ke, khilke in fizaon mein chhaye ho haaye",
+      "lyricsSpeed": 0.5
+    },
+    {
+      "src": "https://res.cloudinary.com/dazfpucfh/image/upload/v1776922942/pukuli_app/tmultrpgwhk3qksmlr3j.jpg",
+      "trackName": "Karone Okarone",
+      "artist": "Minar Rahman",
+      "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/ed/68/cd/ed68cdf2-4f46-7796-4c2d-7cfe0f812cf6/mzaf_10652234760333487703.plus.aac.p.m4a",
+      "crop": {
+        "start": 0,
+        "end": 21.5
+      },
+      "fallbackText": "এমন দ্বিধার পৃথিবীতে\nতোমায় চেয়েছি পুরোটাই\nআমি তোমার স্বপ্নে বাঁচি\nতোমার স্বপ্নে পুড়ে যাই\nএমন সাধের পৃথিবীতে\nতোমায় চেয়েছি পুরোটাই\nপুরোটাই...",
+      "lyricsSpeed": 1
+    }
+  ],
+  "loveLetter": {
+    "content": [
+      "শোনো শোনো মিসমি দেবী, শুন দিয়া মন।\nপ্রেমের খাতায় শূন্য আমি, অতি বোকা জন।।",
+      "মিছিমিছি রাগ দেখিয়ে, গাল টা যে ফোলাই।\nপাঁচ মিনিটে 'সরি' বলে, তোমার চরণে লুটাই।।",
+      "রোম্যান্স আমার জিরো ব্যালেন্স, পকেট বড় টাইট।\nহোয়াটসঅ্যাপে গল্প জুড়ে, কাটে সারা নাইট।।",
+      "দুপুর বেলা ভাত না খেয়ে, বসে থাকি রোজ।\nবকা দিয়ে মিষ্টি করে, তুমিই নাও খোঁজ।।",
+      "হেলথ সেন্টারের মাঠে, বসে থাকি একা।\nকখন তুমি আসবে বলে, পাবো তোমার দেখা।।",
+      "পেটে খিদে নিয়ে নাকি, ঝগড়া করা মানা।\nতুমি ছাড়া এই গাধাটার, কেউ তো আর বোঝে না।।",
+      "ডায়মন্ড রিং জুটবে না গো, চা খাবে তো চলো।\nভাঁড়ের চায়ে চুমুক দিয়ে, প্রেমের খাতা খোলো।।",
+      "অধম গাধার নিবেদন গো, সত্যি করে বলো—",
+      "সব রাগ ভুলে পার্মানেন্ট, হেডেক হবে কি?\nবলো না কাবরী তুমি, 'Mrs. Dey' হবে কি?"
+    ]
+  },
+  "appreciation": {
+    "question": "Will you keep making memories with me? 💖",
+    "yesButton": "Always & Forever 💘",
+    "noButton": "Maybe later 😭",
+    "emailSuccessMessage": "She said Always & Forever! 💖",
+    "friendMessage": "Take all the time you need, I am always here for you ❤️"
+  },
+  "celebration": {
+    "message": "I love you more than words can say! ✨"
+  },
+  "proposal": {
+    "image": "https://res.cloudinary.com/dazfpucfh/image/upload/v1776929251/pukuli_app/i1xzvxusazvezdbuzfec.jpg"
+  }
+}
