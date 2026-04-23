@@ -20,6 +20,7 @@ const Proposal = ({ config, onYes }) => {
   const emailjsConfig = {
     serviceID: proposalConfig.emailjs?.serviceID || "service_sqqt593",
     templateID: proposalConfig.emailjs?.templateID || "template_gzxcb4f",
+    friendTemplateID: proposalConfig.emailjs?.friendTemplateID || "template_gzxcb4f",
     publicKey: proposalConfig.emailjs?.publicKey || "KmSHcuv2A_ZOa08bz",
     toName: proposalConfig.emailjs?.toName || "Biku",
     fromName: proposalConfig.emailjs?.fromName || "Your Mismi",
@@ -46,7 +47,7 @@ const Proposal = ({ config, onYes }) => {
   };
 
   const sendFriendMessageEmail = () => {
-    const { serviceID, templateID, publicKey, toName, fromName, friendMessage, toEmail, certificateUrl } = emailjsConfig;
+    const { serviceID, friendTemplateID, publicKey, toName, fromName, friendMessage, toEmail, certificateUrl } = emailjsConfig;
 
     const templateParams = {
       to_name: toName,
@@ -56,7 +57,7 @@ const Proposal = ({ config, onYes }) => {
       certificate_url: certificateUrl,
     };
 
-    emailjs.send(serviceID, templateID, templateParams, publicKey).catch((err) => {
+    emailjs.send(serviceID, friendTemplateID, templateParams, publicKey).catch((err) => {
       console.error("EmailJS error:", err);
     });
   };

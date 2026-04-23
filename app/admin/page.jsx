@@ -218,13 +218,17 @@ export default function AdminPanel() {
 
             <div className="border-t pt-4 mt-4">
               <h3 className="font-bold text-gray-700 mb-2 text-sm flex items-center gap-2">📧 EmailJS Settings <span className="text-xs font-normal text-gray-500">(For receiving their response)</span></h3>
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-3">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-3">
                 <input type="text" placeholder="Service ID" className="p-3 bg-gray-50 border rounded-xl text-sm outline-none focus:border-pink-400"
                   value={config.proposal?.emailjs?.serviceID || ""} onChange={(e) => setConfig({...config, proposal: { ...config.proposal, emailjs: { ...config.proposal?.emailjs, serviceID: e.target.value } }})} />
-                <input type="text" placeholder="Template ID" className="p-3 bg-gray-50 border rounded-xl text-sm outline-none focus:border-pink-400"
-                  value={config.proposal?.emailjs?.templateID || ""} onChange={(e) => setConfig({...config, proposal: { ...config.proposal, emailjs: { ...config.proposal?.emailjs, templateID: e.target.value } }})} />
                 <input type="text" placeholder="Public Key" className="p-3 bg-gray-50 border rounded-xl text-sm outline-none focus:border-pink-400"
                   value={config.proposal?.emailjs?.publicKey || ""} onChange={(e) => setConfig({...config, proposal: { ...config.proposal, emailjs: { ...config.proposal?.emailjs, publicKey: e.target.value } }})} />
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-3">
+                <input type="text" placeholder="YES Template ID (For Her)" className="p-3 bg-gray-50 border border-green-200 rounded-xl text-sm outline-none focus:border-green-400 bg-green-50/30"
+                  value={config.proposal?.emailjs?.templateID || ""} onChange={(e) => setConfig({...config, proposal: { ...config.proposal, emailjs: { ...config.proposal?.emailjs, templateID: e.target.value } }})} />
+                <input type="text" placeholder="NO Template ID (For You)" className="p-3 bg-gray-50 border border-red-200 rounded-xl text-sm outline-none focus:border-red-400 bg-red-50/30"
+                  value={config.proposal?.emailjs?.friendTemplateID || ""} onChange={(e) => setConfig({...config, proposal: { ...config.proposal, emailjs: { ...config.proposal?.emailjs, friendTemplateID: e.target.value } }})} />
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-3">
                 <input type="email" placeholder="Her Email Address (to_email)" className="p-3 bg-gray-50 border rounded-xl text-sm outline-none focus:border-pink-400"
