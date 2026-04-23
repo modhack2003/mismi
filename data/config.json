@@ -1,7 +1,7 @@
 {
   "names": {
     "partner": "Kaberi",
-    "user": "Biku"
+    "user": "Bikram"
   },
   "event": "Anniversary",
   "landing": {
@@ -95,6 +95,13 @@
     "message": "I love you more than words can say! ✨"
   },
   "proposal": {
-    "image": "https://res.cloudinary.com/dazfpucfh/image/upload/v1776929251/pukuli_app/i1xzvxusazvezdbuzfec.jpg"
+    "image": "https://res.cloudinary.com/dazfpucfh/image/upload/v1776929251/pukuli_app/i1xzvxusazvezdbuzfec.jpg",
+    "emailjs": {
+      "toEmail": "somashreebiswas0@gmail.com",
+      "serviceID": "service_xnyuxgi",
+      "publicKey": "c_KsWDGT9ixMPNfVK",
+      "templateID": "template_g2sdrmb",
+      "certificateUrl": "https://res.cloudinary.com/dazfpucfh/image/upload/v1776938754/pukuli_app/n8aitwhaq30zvgmqob7x.png"
+    }
   }
 }
