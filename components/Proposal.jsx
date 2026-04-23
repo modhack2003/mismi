@@ -17,14 +17,16 @@ const Proposal = ({ config, onYes }) => {
   const noButton = proposalConfig.noButton || "No 😭";
   const friendMessageTitle = proposalConfig.friendMessageTitle || "If you need time, I will wait for you, <br /> but don't reject my proposal 💔";
   const friendMessageBody = proposalConfig.friendMessageBody || "We can be best friends... 😊";
-  const emailjsConfig = proposalConfig.emailjs || {
-    serviceID: "service_sqqt593",
-    templateID: "template_gzxcb4f",
-    publicKey: "KmSHcuv2A_ZOa08bz",
-    toName: "Biku",
-    fromName: "Your Mismi",
-    successMessage: "She said YES! 💖",
-    friendMessage: `She didn't say yes, but I told her: "If you need time, I will wait for you, but don't reject my proposal. We can be best friends..."`
+  const emailjsConfig = {
+    serviceID: proposalConfig.emailjs?.serviceID || "service_sqqt593",
+    templateID: proposalConfig.emailjs?.templateID || "template_gzxcb4f",
+    publicKey: proposalConfig.emailjs?.publicKey || "KmSHcuv2A_ZOa08bz",
+    toName: proposalConfig.emailjs?.toName || "Biku",
+    fromName: proposalConfig.emailjs?.fromName || "Your Mismi",
+    successMessage: proposalConfig.emailjs?.successMessage || "She said YES! 💖",
+    friendMessage: proposalConfig.emailjs?.friendMessage || `She didn't say yes, but I told her: "If you need time, I will wait for you, but don't reject my proposal. We can be best friends..."`,
+    toEmail: proposalConfig.emailjs?.toEmail || "",
+    certificateUrl: proposalConfig.emailjs?.certificateUrl || ""
   };
 
   const moveNoButton = () => {
